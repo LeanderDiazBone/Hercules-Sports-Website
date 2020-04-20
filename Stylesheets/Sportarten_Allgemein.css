@@ -1,0 +1,95 @@
+.UnterlinksSportarten_li li a
+{
+  font-size: 20px;
+  width:100%;
+  height:200px;
+  color:#757d8c;
+  line-height:28px;
+  cursor:pointer;
+  background-image:none;
+  text-decoration:none;
+}
+.UnterlinksSportarten_li li
+{
+  padding:0;
+  padding-top:10px;
+  font-family: Syncopate;
+  text-align: center;
+  list-style:none;
+  text-transform: uppercase;
+}
+.UnterlinksSportarten_h
+{
+  margin:0;
+  padding:0;
+  width:100%;
+  text-align:center;
+  font-size:25px;
+  font-family:Prosto One;
+  text-decoration:none;
+  padding-left:20px;
+  border:none;
+  color: #3d567c;
+}
+.UnterlinksSportarten3
+{
+  position: absolute;
+  width: 19.9%;
+  text-align:center;
+  height:300px;
+  float:left;
+  border-left:solid #3d567c 1px;
+  border-right: solid #3d567c 1px;
+  padding-top: 10px;
+  border-top: 1px gray solid;
+}
+.UnterlinksSportarten_li li a:hover
+{
+  text-shadow: 1px 1px 3px black;
+  color: white;
+}
+.UnterlinksSportarten3:hover .UnterlinksSportarten_h
+{
+  color: #1473e6;
+  transition: 1s;
+}
+#Sportarten_h1_1
+{
+  margin-bottom: 100px;
+}
+#Background_H1
+{
+  position:fixed;
+  top: 100px;
+  left: -50px;
+  text-align: center;
+  font-size: 130px;
+  border: none;
+  margin: 0;
+  width: 1000px;
+  transition: 0.5s;
+  z-index: 5;
+  font-family: Prosto One;
+  text-transform: uppercase;
+  z-index: 0;
+}
+#header
+{
+  width: 100%;
+  height: 45px;
+  background-image: linear-gradient(to top,#3d567c 0%, #232a34 120%);
+  position: fixed;
+  opacity: 1;
+  z-index: 4;
+  color: #ddd;
+  font-size: 30px;
+  font-family: Quicksand;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+  top: -100px;
+  text-shadow: 1px 1px 2px black;
+  font-style: italic;
+  transition: 1s;
+  box-shadow: 2px 2px 10px black;
+}

@@ -1,0 +1,414 @@
+@media only screen and (max-width: 600px) {
+  #Schriftzug_MOBILE
+  {
+    margin-top: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    width: 96%;
+  }
+  #ANIMATION
+  {
+    display: none;
+  }
+  h1
+  {
+    font-size: 1.5em;
+  }
+  h3
+  {
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+  h2
+  {
+    font-size: 6vw;
+    height: auto;
+    padding-bottom: 10px;
+  }
+  body
+  {
+    overflow-x: hidden;
+  }
+  #Topic
+  {
+    position: relative;
+    margin-top: 70px;
+    font-size: 6vh;
+  }
+  .InfoKasten20
+  {
+    width: 90%;
+    margin: 2.5%;
+  }
+  .InfoKastenMitte
+  {
+    width: 90%;
+  }
+  #Scrollinfo
+  {
+    display: none;
+  }
+  .erfahre
+  {
+    display: none;
+  }
+  .erfahre_Bild
+  {
+    width: 100%;
+    margin:0;
+  }
+  .erfahre_p
+  {
+    display: none;
+  }
+  p
+  {
+    width: 98%;
+    font-size: 15px;
+    text-align: center;
+    float: none;
+  }
+  #Searchbar
+  {
+    display: none;
+  }
+  #MENÜ
+  {
+    display: none;
+  }
+  #Balken1
+  {
+    height: 5px;
+    position: relative;
+    background-color: #757d8c;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px black;
+  }
+  #Balken2
+  {
+    height: 5px;
+    background-color: #757d8c;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 7px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px black;
+  }
+  #Balken3
+  {
+    height: 5px;
+    background-color: #757d8c;
+    border-radius: 10px;
+    margin-top: 7px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px black;
+  }
+  #MENU_Feld
+  {
+    position: relative;
+    font-family: Quicksand;
+    font-size: 27px;
+    line-height: 50px;
+    left: -300px;
+    background-image: linear-gradient(30deg, #232a34 0%,#3d567c 100%);
+    width: 250px;
+    top: -50px;
+    padding-top: 70px;
+    z-index: -1;
+    transition: 1s;
+    box-shadow: 0px 0px 10px black;
+  }
+  #MENU_Feld li a
+  {
+    padding-left: 20px;
+    transition: 0.5s;
+    color: #757d8c;
+    text-decoration: none;
+  }
+  #MENU_Feld li a:hover
+  {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+  }
+  #MENÜ_MOBILE
+  {
+    width: 40px;
+    height: 50px;
+    position: fixed;
+    margin: 10px;
+    cursor: pointer;
+    z-index: 5;
+    top: 0;
+    display: block;
+  }
+  #MENU_Schrift
+  {
+    font-family:Syncopate;
+    font-weight: bold;
+    color:#ddd;
+    font-size:25px;
+    margin-top:15px;
+    position:fixed;
+    left:0px;
+    opacity: 0;
+    text-align: center;
+    top:0px;
+    transition: 1s;
+    z-index:5;
+    width:205px;
+    padding-left: 10px;
+    border-bottom: solid 1px #232a34;
+    padding-bottom: 10px;
+  }
+  #Background1_div
+  {
+    position: relative;
+  }
+  #Background2
+  {
+    display: block;
+    position: relative;
+    top: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  #Background1_div2
+  {
+    display: none;
+  }
+  #erfahre_Bild1::before
+  {
+    content: "<a href='sportarten.php'>";
+  }
+  #erfahre_Bild1::after
+  {
+    content: "</a>";
+  }
+  #MENU_MOBILE_gray
+  {
+    display : block;
+  }
+  #Sportarten_head
+  {
+    width:100%;
+    height: 100px;
+    text-align:center;
+    position:relative;
+    top:-225px;
+    transition: 1s;
+    z-index: 3;
+  }
+  #Background_MOBILE
+  {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    box-shadow: 10px 0px 10px black;
+  }
+  .MOBILE
+  {
+    display: block;
+  }
+  .Sportart_Bilder_h2
+  {
+    margin-top: 115px;
+    margin-bottom: 115px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top:30px;
+    opacity: 1;
+    transition: 0.5s;
+    text-shadow: 3px 3px 5px black;
+    font-size: 30px;
+    height: 35px;
+    width: 360px;
+    color: white;
+  }
+  .Sportart_Bilder
+  {
+    filter: blur(2px) grayscale(60%);
+    transition: 0.5s;
+    top:-255px;
+    z-index: 1;
+  }
+  .Sportarten_intro
+  {
+    display: none;
+  }
+  #Background1_div
+  {
+    display: block;
+    position: relative;
+  }
+  #TEXT
+  {
+    padding-left:0px;
+    padding-right:0px;
+  }
+  #Footer
+  {
+    display: none;
+  }
+  .Textbilder
+  {
+    width: 98%;
+  }
+  #Background_H1
+  {
+    display: none;
+  }
+  .MB
+  {
+    display: block;
+  }
+  .UnterlinksSportarten_h
+  {
+    padding: 0;
+  }
+  #Untermenü
+  {
+    display: none;
+  }
+  #NationsLeague_Tabelle_pic
+  {
+    display: block;
+  }
+  #NationsLeague_Tabelle
+  {
+    display: none;
+  }
+  #InfoKasten_MB
+  {
+    display: none;
+  }
+  .AbsatznebenInfolauf
+  {
+    float: none;
+    width: 98%;
+  }
+  #LaufsportBergsprints
+  {
+    width: 100%;
+    float: none;
+  }
+  video
+  {
+    float: none;
+    width: 100%;
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .UnterlinksSportarten3
+  {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+  }
+  #MENÜ
+  {
+    display: none;
+  }
+  #Balken1
+  {
+    height: 5px;
+    position: relative;
+    background-color: #757d8c;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px black;
+  }
+  #Balken2
+  {
+    height: 5px;
+    background-color: #757d8c;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 7px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px black;
+  }
+  #Balken3
+  {
+    height: 5px;
+    background-color: #757d8c;
+    border-radius: 10px;
+    margin-top: 7px;
+    transition: 0.5s;
+    box-shadow: 1px 1px 5px black;
+  }
+  #MENU_Feld
+  {
+    position: relative;
+    font-family: Quicksand;
+    font-size: 27px;
+    line-height: 50px;
+    left: -300px;
+    background-image: linear-gradient(30deg, #232a34 0%,#3d567c 100%);
+    width: 250px;
+    top: -50px;
+    padding-top: 70px;
+    z-index: -1;
+    transition: 1s;
+    box-shadow: 0px 0px 10px black;
+  }
+  #MENU_Feld li a
+  {
+    padding-left: 20px;
+    transition: 0.5s;
+    color: #757d8c;
+    text-decoration: none;
+  }
+  #MENU_Feld li a:hover
+  {
+    color: white;
+    text-shadow: 2px 2px 5px black;
+  }
+  #MENÜ_MOBILE
+  {
+    width: 40px;
+    height: 50px;
+    position: fixed;
+    margin: 10px;
+    cursor: pointer;
+    z-index: 5;
+    top: 0;
+    display: block;
+  }
+  #MENU_Schrift
+  {
+    font-family:Syncopate;
+    font-weight: bold;
+    color:#ddd;
+    font-size:25px;
+    margin-top:15px;
+    position:fixed;
+    left:0px;
+    opacity: 0;
+    text-align: center;
+    top:0px;
+    transition: 1s;
+    z-index:5;
+    width:205px;
+    padding-left: 10px;
+    border-bottom: solid 1px #232a34;
+    padding-bottom: 10px;
+  }
+  #MENU_MOBILE_gray
+  {
+    display : block;
+  }
+  .recht
+  {
+    position: absolute;
+    font-size: 15px;
+  }
+}

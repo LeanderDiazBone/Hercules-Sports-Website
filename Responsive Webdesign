@@ -1,0 +1,10 @@
+Menü_Mobile:
+
+<?php
+  include("../../menu_MOBILE.php");
+?>
+
+Banner:
+
+<img src="Bilder/MB_Banner2.jpg" style="width:100%;position: relative" id="Background2" class="MB">
+<div style="width: 100%; margin-top: 50px; text-align: center" class="MB"><h4 style="margin-bottom: 0; position: relative; top: 20px">Was du hier findest ...</h4></div>
