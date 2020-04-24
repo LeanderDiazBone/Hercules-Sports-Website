@@ -33,16 +33,28 @@
       <img src="Bilder/test6.jpg" style="width:100%">
       <p style="">Wir bereiten dich auf deinen bevorstehenden Eignungstest vor. Egal an welcher Hochschule wir unterstützen dich mit Trainingsplänen, Informationen rund um Vorraussetungen und Anforderungen und umfassende Berichte zu den verschiedenen Sportarten.</p>
       <div style="width:100%;height:1px;background-color:#3d567c"> </div>
-      <h1 style="margin-top:100px;margin-bottom:20px;color: white"><i> Trainingspläne </i></h1>
+      <h1 style="margin-top:100px;margin-bottom:20px;color: white"><i> Trainingspläne</i></h1>
       <p class="erfahre_p" style=""> T r a i n i n g s ü b u n g e n <span style="margin:20px">|</span> T i p p s <span style="margin:20px">|</span> Z e i t m a n a g e m e n t <span style="margin:20px"></p>
       <div id="Trainingspläne">
-        <div><img src="Bilder/AdvancedTraining.png" style="" class="erfahre_Bild" id="AdvancedTraining"></div>
-        <div><img src="Bilder/BasicTraining.png" style="" class="erfahre_Bild" id="BasicTraining"></div>
+        
+        <div><a href="Trainingspläne/Beispiel PDF.pdf"><img src="Bilder/BasicTraining.png" class="erfahre_Bild" id="BasicTraining"></a></div>
+        <div><a href="training.php?tr=advanced"><img src="Bilder/AdvancedTraining.png" class="erfahre_Bild" id="AdvancedTraining"></a></div>
       </div>
-      <div id="slideTrainingsplanInfo">
+      <!--<div id="slideTrainingsplanInfo"> -->
         <div id="TrainingspläneInfo">
           <div id="TrainingspläneInfoLeft">
-            <li class="TrainingsplanIsSet">Übungen</li>
+          <li class="TrainingsplanIsSet">Übungen</li>
+            <li class="TrainingsplanIsSet">Techniken</li>
+            <li class="TrainingsplanIsSet">Trainingseinheiten</li>
+            <li class="TrainingsplanIsNotSet">Anpassung auf dich</li>
+            <li class="TrainingsplanIsNotSet">Wochentrainingspläne (nur ein Beispiel)</li>
+            <li class="TrainingsplanIsNotSet">weiterführende Infos und Tipps</li>
+            <li class="TrainingsplanIsNotSet">personelle Unterstützung</li>
+            <p>Hier findest du einen Trainingsplan, welcher die grundlegenden Übungen und Anforderungen behandelt. Dieser Trainingsplan ist nicht auf dich angepasst, hilft jedoch trotzdem um ein grundlegende Fähigkeiten aufzubauen.</p>
+            <p><a href="training.php?tr=basic">Klick für mehr ...</a></p> 
+          </div>
+          <div id="TrainingspläneInfoRight">
+          <li class="TrainingsplanIsSet">Übungen</li>
             <li class="TrainingsplanIsSet">Techniken</li>
             <li class="TrainingsplanIsSet">Trainingseinheiten</li>
             <li class="TrainingsplanIsSet">Anpassung auf dich</li>
@@ -51,20 +63,10 @@
             <li class="TrainingsplanIsSet">personelle Unterstützung</li>
             <p>Um mit einem auf deine Wünsche angepassten und personalisierten Trainingsplan zu üben, stellen wir dir gerne einen Plan zusammen.</p>
             <p><a href="training.php?tr=advanced">Klick für mehr ...</a></p>
-          </div>
-          <div id="TrainingspläneInfoRight">
-            <li class="TrainingsplanIsSet">Übungen</li>
-            <li class="TrainingsplanIsSet">Techniken</li>
-            <li class="TrainingsplanIsSet">Trainingseinheiten</li>
-            <li class="TrainingsplanIsNotSet">Anpassung auf dich</li>
-            <li class="TrainingsplanIsNotSet">Wochentrainingspläne (nur ein Beispiel)</li>
-            <li class="TrainingsplanIsNotSet">weiterführende Infos und Tipps</li>
-            <li class="TrainingsplanIsNotSet">personelle Unterstützung</li>
-            <p>Hier findest du einen Trainingsplan, welcher die grundlegenden Übungen und Anforderungen behandelt. Dieser Trainingsplan ist nicht auf dich angepasst, hilft jedoch trotzdem um ein grundlegende Fähigkeiten aufzubauen.</p>
-            <p><a href="training.php?tr=basic">Klick für mehr ...</a></p>
+            
           </div>
         </div>
-      </div>
+      <!--</div>-->
       <div style="width:100%;height:1px;background-color:#3d567c"> </div>
       <h1 style="margin-top:150px;margin-bottom:20px;color: white"><i> Infos </i></h1>
       <p class="erfahre_p" style=""> A n f o r d e r u n g e n <span style="margin:20px">|</span> A b l a u f <span style="margin:20px">|</span> T e r m i n e <span style="margin:20px">|</span> T e c h n i k<span style="margin:20px">|</span> R e g e l n</p>

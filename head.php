@@ -2,6 +2,7 @@
 <meta charset="UTF-8">
 <link href="Stylesheets/style.css" rel=stylesheet type="text/css" id="style">
 <link href="Stylesheets/style_resize.css" rel=stylesheet type="text/css">
+<link href="Stylesheets/style_resize2.css" rel=stylesheet type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Prosto+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
