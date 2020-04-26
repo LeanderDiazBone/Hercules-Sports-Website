@@ -1742,3 +1742,32 @@ padding-left: 5vw;
   text-align: left;
   margin-bottom: 15px;
 }
+#DownloadButton
+{
+  width: 50%;
+  height: 50px;
+  font-family: Arial;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 3px solid green;
+  color: green;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+#DownloadButton:hover
+{
+  background-color: lime;
+  cursor:  pointer;
+  transition: 1s;
+}
+#kostenlosSign
+{
+  width: 300px;
+  position: absolute;
+  margin-top: -50px;
+  transform: rotate(20deg);
+  margin-left: -7vw;
+}

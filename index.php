@@ -6,7 +6,7 @@
       ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     </head>
-    <body style="width:100%;height:auto;margin:0;background-color:#3d567c" onscroll="" onload="LOAD_ALL();START();RESIZE();LOAD()" onresize="RESIZE()">
+    <body style="width:100%;height:auto;margin:0;background-color:#3d567c" onscroll="IndexContentFadeIn()" onload="LOAD_ALL();START();RESIZE();LOAD()" onresize="RESIZE()">
       <div style="background-image: radial-gradient(#232a34 40%,#3d567c 150%);" id="background">
       </div>
       <?php
@@ -16,7 +16,7 @@
       include('menu_MOBILE.php');
       ?>
       <div style="" id="ANIMATION" onclick="START()">
-        <div style="width:0px;height:70px;border-bottom: 2px white solid;transition:1s;margin-left:auto;margin-right:auto;position:relative;left:0px;z-index:2;background-color:#232a34;" id="a"></div>
+        <div style="width:0px;height:70px;border-bottom: 2px white solid;transition:1s;margin-left:auto;margin-right:auto;position:relative;left:-1px;z-index:2;background-color:#232a34;" id="a"></div>
         <div style="height:0px;width:2px;background-color:white;transition:1s;transition-delay:3s;float:left" id="b"></div>
         <p style="font-size: 56.5px;height: 60px;padding-top:6px;margin-bottom:0;font-family: The Rave Is In Your Pants;color:white;transition:2s;transition-delay:1s;opacity: 0;z-index:-1;position:relative;top:-70px;-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-image :url(Bilder/Footer.jpg);width:890px" id="TEST2"><img src="Bilder/Schriftzug_Home.png" style="width:98%"></p>
         <div style="height:0px;width:2px;background-color:white;transition:1s;transition-delay:3s;position:relative;left:-1px" id="c"></div>
@@ -29,16 +29,15 @@
       </div>
 
 
-      <h1 style="margin-top:50px;margin-bottom:50px;color: white"><i>Deine Website rund um den Eignungstest</i></h1>
-      <img src="Bilder/test6.jpg" style="width:100%">
+      <h1 style="margin-top:50px;margin-bottom:50px;color: white" id="FirstContent"><i>Deine Website rund um den Eignungstest</i></h1>
       <p style="">Wir bereiten dich auf deinen bevorstehenden Eignungstest vor. Egal an welcher Hochschule wir unterstützen dich mit Trainingsplänen, Informationen rund um Vorraussetungen und Anforderungen und umfassende Berichte zu den verschiedenen Sportarten.</p>
       <div style="width:100%;height:1px;background-color:#3d567c"> </div>
       <h1 style="margin-top:100px;margin-bottom:20px;color: white"><i> Trainingspläne</i></h1>
       <p class="erfahre_p" style=""> T r a i n i n g s ü b u n g e n <span style="margin:20px">|</span> T i p p s <span style="margin:20px">|</span> Z e i t m a n a g e m e n t <span style="margin:20px"></p>
       <div id="Trainingspläne">
-        
-        <div><a href="Trainingspläne/Beispiel PDF.pdf"><img src="Bilder/BasicTraining.png" class="erfahre_Bild" id="BasicTraining"></a></div>
-        <div><a href="training.php?tr=advanced"><img src="Bilder/AdvancedTraining.png" class="erfahre_Bild" id="AdvancedTraining"></a></div>
+
+        <div><a target="_blank" href="Trainingspläne/Beispiel PDF.pdf"><img src="Bilder/BasicTraining.png" class="erfahre_Bild FadeIn" id="BasicTraining"></a></div>
+        <div><a href="training.php?tr=advanced"><img src="Bilder/AdvancedTraining.png" class="erfahre_Bild FadeIn" id="AdvancedTraining"></a></div>
       </div>
       <!--<div id="slideTrainingsplanInfo"> -->
         <div id="TrainingspläneInfo">
@@ -51,7 +50,8 @@
             <li class="TrainingsplanIsNotSet">weiterführende Infos und Tipps</li>
             <li class="TrainingsplanIsNotSet">personelle Unterstützung</li>
             <p>Hier findest du einen Trainingsplan, welcher die grundlegenden Übungen und Anforderungen behandelt. Dieser Trainingsplan ist nicht auf dich angepasst, hilft jedoch trotzdem um ein grundlegende Fähigkeiten aufzubauen.</p>
-            <p><a href="training.php?tr=basic">Klick für mehr ...</a></p> 
+            <button type="button" id="DownloadButton" onclick="window.open('Trainingspläne/Beispiel PDF.pdf')">Download now !</button>
+            <img src="Bilder/kostenlos.png" id="kostenlosSign" >
           </div>
           <div id="TrainingspläneInfoRight">
           <li class="TrainingsplanIsSet">Übungen</li>
@@ -63,7 +63,7 @@
             <li class="TrainingsplanIsSet">personelle Unterstützung</li>
             <p>Um mit einem auf deine Wünsche angepassten und personalisierten Trainingsplan zu üben, stellen wir dir gerne einen Plan zusammen.</p>
             <p><a href="training.php?tr=advanced">Klick für mehr ...</a></p>
-            
+
           </div>
         </div>
       <!--</div>-->
@@ -71,8 +71,8 @@
       <h1 style="margin-top:150px;margin-bottom:20px;color: white"><i> Infos </i></h1>
       <p class="erfahre_p" style=""> A n f o r d e r u n g e n <span style="margin:20px">|</span> A b l a u f <span style="margin:20px">|</span> T e r m i n e <span style="margin:20px">|</span> T e c h n i k<span style="margin:20px">|</span> R e g e l n</p>
       <div id="Infos">
-        <a href="info.php"><img src="Bilder/Info.png" style="" class="erfahre_Bild"></a>
-        <a href="sportarten.php"><img src="Bilder/Sportarten.png" style="" class="erfahre_Bild"></a>
+        <a href="info.php"><img src="Bilder/Info.png" style="" class="erfahre_Bild FadeIn"></a>
+        <a href="sportarten.php"><img src="Bilder/Sportarten.png" style="" class="erfahre_Bild FadeIn"></a>
       </div>
       <div style="width:100%;height:1px;background-color:#3d567c"> </div>
       <h1 style="margin-top:150px;margin-bottom:20px;color: white"><i> Social Media </i></h1>
@@ -98,7 +98,7 @@
       document.getElementById("e").style.width= "300px";
       document.getElementById("e").style.marginLeft= "0px";
       setTimeout("Start()", 5000);
-
+      setTimeout("ScrollToContent()", 8000);
     }
       function Start(){
         if(a < 300){
@@ -130,5 +130,14 @@
         //function Mobileversionfehler(){
         //  if(screen.width < 600){document.getElementById("Mobilewebsitefehler").style.display = "block"}
         //}
+
+//Bei beenden der Animation wird nach unten gescrollt
+        function ScrollToContent(){
+          if(window.pageYOffset < window.innerHeight){
+            window.scrollBy(0, 10);
+            setTimeout('ScrollToContent()', 10);
+          }
+        }
+
     </script>
   </html>
