@@ -11,21 +11,22 @@
   <div style="" id="MENU_Schrift">MENÜ</div>
 </div>
   <div id="MENU_Feld">
-      <li><a href="sportarten.php" id="MenuA1">Sportarten</a></li>
-      <li><a href="" id="MenuA2">Ernährung</a></li>
-      <li id="MenuA3">Shop</li>
-      <li id="MenuA4">Trainingspläne</li>
-      <li><a href="uberuns.php" id="MenuA5">Über uns</a></li>
-      <li><a href="index.php" id="MenuA6">Home</a></li>
-      <li class="recht"><a href="impressum.php" id="MenuA7">Impressum</a></li>
+    <li><a href="training.php" id="MenuA1">Trainingspläne</a></li>
+    <li><a href="info.php"id="MenuA2">Infos</a></li>      
+    <li><a href="sportarten.php" id="MenuA3">Sportarten</a></li>
+      <!--<li><a href="" id="MenuA2">Ernährung</a></li>
+      <li id="MenuA3">Shop</li>-->
+    <li><a href="uberuns.php" id="MenuA4">Über uns</a></li>
+    <li><a href="index.php" id="MenuA5">Home</a></li>
+      <!--<li class="recht"><a href="impressum.php" id="MenuA7">Impressum</a></li>
       <li class="recht"><a href="datenschutz.php" id="MenuA8">Datenschutz</a></li>
-      <li class="recht"><a href="nutzungsbedingungen.php" id="MenuA9">Nutzungsbedingungen</a></li>
+      <li class="recht"><a href="nutzungsbedingungen.php" id="MenuA9">Nutzungsbedingungen</a></li>-->
   </div>
 </div>
 <script>function Mobile_menu_start(){
   var str = location.href;
   var n = str.search("SportartenTexte");
-  if(n > -1){document.getElementById("MenuA1").href = "../../sportarten.php";document.getElementById("MenuA2").href = "";document.getElementById("MenuA3").href = "";document.getElementById("MenuA4").href = "";document.getElementById("MenuA5").href = "../../uberuns.php";document.getElementById("MenuA6").href = "../../index.php";document.getElementById("MenuA7").href = "../../impressum.php";document.getElementById("MenuA8").href = "../../datenschutz.php";document.getElementById("MenuA9").href = "../../nutzungsbedingungen.php";document.getElementById("Schrift_Menu").style.margin = '0'}
+  if(n > -1){document.getElementById("MenuA1").href = "training.php";document.getElementById("MenuA2").href = "info.php";document.getElementById("MenuA3").href = "../../sportarten.php";document.getElementById("MenuA4").href = "uberuns.php";document.getElementById("MenuA5").href = "index.php";document.getElementById("MenuA6").href = "../../index.php";document.getElementById("MenuA7").href = "../../impressum.php";document.getElementById("MenuA8").href = "../../datenschutz.php";document.getElementById("MenuA9").href = "../../nutzungsbedingungen.php";document.getElementById("Schrift_Menu").style.margin = '0'}
   document.getElementById("MENU_Feld").style.left = "-40px";
   document.getElementById("MENU_Feld").style.height = window.innerHeight + 100 + "px";
   document.getElementById("MENU_MOBILE_gray").style.height = window.innerHeight + 100 + "px";
