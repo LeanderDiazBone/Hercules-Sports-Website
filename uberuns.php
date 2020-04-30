@@ -43,7 +43,7 @@
       document.getElementById("Sportarten_head").style.display = "none";
     }else if(window.pageYOffset > 0 && window.innerWidth < 600){
       document.getElementById("Sportarten_head").style.display = "none";
-    }else{
+    }else if(window.innerWidth > 600){
       document.getElementById("Sportarten_head").style.display = "block";
     }
   }

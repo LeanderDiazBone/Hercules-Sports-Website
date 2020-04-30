@@ -6,8 +6,8 @@
       ?>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     </head>
-    <body style="width:100%;height:auto;margin:0;background-color:#3d567c" onscroll="if(screen.width> 600){LOAD_SP()}" onload="LOAD_ALL();LOAD_SP();RESIZE();" onresize="RESIZE()">
-      <div style="background-image: radial-gradient(#232a34 40%,#3d567c 150%);width:100%;position:fixed;z-index:-5;top:0" id="background">
+    <body style="width:100%;height:auto;margin:0;background-color:#3d567c" onload="LOAD_ALL();LOAD_SP();" onresize="ResizeSportarten()">
+      <div style="background-image: radial-gradient(#232a34 40%,#3d567c 150%);width:100%;position:fixed;z-index:-5;top:0; height: 100vh" id="background">
       </div>
       <?php
       include('menu.php');
@@ -15,14 +15,13 @@
       <?php
       include('menu_MOBILE.php');
       ?>
-      <div style="" id="Background1_div"><img src="Bilder/test5.jpg" id="Background1" style="width:100%;opacity:0.5"></div>
+      <div style="height: 0px" id="Background1_div"><img src="Bilder/test5.jpg" id="Background1" style="min-height:100vh;width: 100vw;min-width: 1500px;opacity:0.5;position:relative"></div>
       <div id="Background1_div2" style="width: 100%"></div>
       <div style="" id="Sportarten_head"><img src="Bilder/Logo2.png" style="max-width: 1400px;width:100%;max-height: 200px" onload="if(screen.width > 600){document.getElementById('Sportarten_head').style.top = '-25px'}else{document.getElementById('Sportarten_head').style.display = 'none'}"></div>
       <div style="position:absolute;height:50px;width:100%;margin-left:auto;margin-right:auto;text-align:center">
         <p style="color:white;font-family:Syncopate;opacity: 1 ;transition: 0.5s;position:relative;top: -100px" id="Scrollinfo">UM WEITER ZU KOMMEN SCROLLEN</p>
       </div>
-      <img src="Bilder/test5.jpg" id="Background_MOBILE" class="MOBILE" onload="document.getElementById('Background_Space_MOBILE').style.height = document.getElementById('Background_MOBILE').height + 'px'">
-      <div id="Background_Space_MOBILE" class="MOBILE" style="width: 100%"></div>
+      <div style="z-index: 3;position: relative; background-image: radial-gradient(#232a34 40%,#3d567c 150%);padding-top: 50px">
       <h1 style="margin-top:40px">Unsere Sportberichte</h1>
       <p class="Sportarten_intro">Hier findest du Informationen über verschiedenste Sportarten, Tipps und Fakten.</p>
       <div style="width:100%;height:1px;background-color:#3d567c;margin-bottom:100px" class="Sportarten_intro"> </div>
@@ -46,6 +45,7 @@
       <?php
       include('footer.php');
       ?>
+      </div>
       <script>
       function Mobile_menu_start(){
         document.getElementById("MENU_Feld").style.left = "-40px";
@@ -63,6 +63,14 @@
         document.getElementById("MENU_MOBILE_gray").style.width = "0px";
         document.getElementById("MENU_MOBILE_gray").style.opacity = 0;
         document.getElementById("MENU_Schrift").style.left = "-1000px";
+      }
+
+      function ResizeSportarten(){
+        if(window.innerWidth < 600){
+          document.getElementById("Background1_div").style.display = "none";
+        }else{
+          document.getElementById("Background1_div").style.display = "block";
+        }
       }
       </script>
   </body>

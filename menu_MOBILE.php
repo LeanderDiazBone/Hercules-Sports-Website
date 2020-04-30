@@ -1,4 +1,4 @@
-<div style="width:100%;height:100%;background-color: black;opacity: 0;position: fixed;top:0;z-index:3;" id="MENU_MOBILE_gray" onclick="Mobile_menu_end()">
+<div style="width:100%;height:100%;background-color: black;opacity: 0;position: fixed;top:0;z-index:4;" id="MENU_MOBILE_gray" onclick="Mobile_menu_end()">
 </div>
 <div style="width: 100%; height: 50px; background-color: #3d567c; position: fixed; top:0px; z-index: 4 ;box-shadow: 2px 2px 5px black" class="MB">
   <img src="Bilder/Schriftzug_Home_MB.png" style="width: 50%; position: fixed; left: 25%; top: 20px;margin: 0" id="Schrift_Menu" onload="menu_MOBILE_load()">
@@ -12,7 +12,7 @@
 </div>
   <div id="MENU_Feld">
     <li><a href="training.php" id="MenuA1">Trainingspläne</a></li>
-    <li><a href="info.php"id="MenuA2">Infos</a></li>      
+    <li><a href="info.php"id="MenuA2">Infos</a></li>
     <li><a href="sportarten.php" id="MenuA3">Sportarten</a></li>
       <!--<li><a href="" id="MenuA2">Ernährung</a></li>
       <li id="MenuA3">Shop</li>-->
@@ -27,7 +27,7 @@
   var str = location.href;
   var n = str.search("SportartenTexte");
   if(n > -1){document.getElementById("MenuA1").href = "training.php";document.getElementById("MenuA2").href = "info.php";document.getElementById("MenuA3").href = "../../sportarten.php";document.getElementById("MenuA4").href = "uberuns.php";document.getElementById("MenuA5").href = "index.php";document.getElementById("MenuA6").href = "../../index.php";document.getElementById("MenuA7").href = "../../impressum.php";document.getElementById("MenuA8").href = "../../datenschutz.php";document.getElementById("MenuA9").href = "../../nutzungsbedingungen.php";document.getElementById("Schrift_Menu").style.margin = '0'}
-  document.getElementById("MENU_Feld").style.left = "-40px";
+  document.getElementById("MENU_Feld").style.left = "-10px";
   document.getElementById("MENU_Feld").style.height = window.innerHeight + 100 + "px";
   document.getElementById("MENU_MOBILE_gray").style.height = window.innerHeight + 100 + "px";
   document.getElementById("MENU_MOBILE_gray").style.width = window.innerWidth + "px";
