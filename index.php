@@ -34,19 +34,15 @@
       <div style="width:100%;height:1px;background-color:#3d567c"> </div>
       <h1 style="margin-top:100px;margin-bottom:20px;color: white"><i> Trainingspläne</i></h1>
       <p class="erfahre_p" style=""> T r a i n i n g s ü b u n g e n <span style="margin:20px">|</span> T i p p s <span style="margin:20px">|</span> Z e i t m a n a g e m e n t <span style="margin:20px"></p>
-      <div id="Trainingspläne">
-
-        <div><a target="_blank" href="Trainingspläne/Beispiel PDF.pdf"><img src="Bilder/BasicTraining.png" class="erfahre_Bild FadeIn" id="BasicTraining"></a></div>
-        <div><a href="training.php?tr=advanced"><img src="Bilder/AdvancedTraining.png" class="erfahre_Bild FadeIn" id="AdvancedTraining"></a></div>
-      </div>
       <!--<div id="slideTrainingsplanInfo"> -->
         <div id="TrainingspläneInfo">
           <div id="TrainingspläneInfoLeft">
+            <div class="erfahre_Bild_Container"><a target="_blank" href="Trainingspläne/Beispiel PDF.pdf"><img src="Bilder/BasicTraining.png" class="erfahre_Bild FadeIn" id="BasicTraining"></a></div>
           <li class="TrainingsplanIsSet">Übungen</li>
             <li class="TrainingsplanIsSet">Techniken</li>
             <li class="TrainingsplanIsSet">Trainingseinheiten</li>
             <li class="TrainingsplanIsNotSet">Anpassung auf dich</li>
-            <li class="TrainingsplanIsNotSet">Wochentrainingspläne (nur ein Beispiel)</li>
+            <li class="TrainingsplanIsNotSet">Wochentrainingspläne</li>
             <li class="TrainingsplanIsNotSet">weiterführende Infos und Tipps</li>
             <li class="TrainingsplanIsNotSet">personelle Unterstützung</li>
             <p>Hier findest du einen Trainingsplan, welcher die grundlegenden Übungen und Anforderungen behandelt. Dieser Trainingsplan ist nicht auf dich angepasst, hilft jedoch trotzdem um ein grundlegende Fähigkeiten aufzubauen.</p>
@@ -54,6 +50,7 @@
             <img src="Bilder/kostenlos.png" id="kostenlosSign" >
           </div>
           <div id="TrainingspläneInfoRight">
+            <div class="erfahre_Bild_Container"><a href="training.php?tr=advanced"><img src="Bilder/AdvancedTraining.png" class="erfahre_Bild FadeIn" id="AdvancedTraining"></a></div>
           <li class="TrainingsplanIsSet">Übungen</li>
             <li class="TrainingsplanIsSet">Techniken</li>
             <li class="TrainingsplanIsSet">Trainingseinheiten</li>

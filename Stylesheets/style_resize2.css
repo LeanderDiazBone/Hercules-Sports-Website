@@ -8,3 +8,36 @@ footer
 {
 width: 33%;
 }
+#TrainingspläneInfo
+{
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+}
+#TrainingspläneInfoLeft
+{
+  width: 100%;
+  margin: 0px;
+}
+#TrainingspläneInfoRight
+{
+  width: 100%;
+  margin: 0px;
+}
+.erfahre_Bild_Container
+{
+  height: auto;
+}
+#Infos a
+{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  margin-bottom: 5vw;
+}
+#ANIMATION
+{
+  display: none;
+}
+
+}
