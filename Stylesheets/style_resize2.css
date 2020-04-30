@@ -7,6 +7,20 @@ footer
 .FooterP
 {
 width: 33%;
+font-size: 2vw;
+font-weight: normal;
+}
+.FooterLo
+{
+  display: none;
+}
+#Gmail
+{
+  display: none;
+}
+#FooterInsta
+{
+  display: none;
 }
 #TrainingspläneInfo
 {
@@ -39,5 +53,14 @@ width: 33%;
 {
   display: none;
 }
-
+#MobileLogo
+{
+  display: block;
+  top: -20vw;
+  position: absolute;
+}
+#FirstContent
+{
+  margin-top: 100vh;
+}
 }

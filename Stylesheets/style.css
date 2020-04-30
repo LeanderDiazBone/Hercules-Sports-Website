@@ -1769,3 +1769,10 @@ padding-left: 5vw;
   transform: rotate(20deg);
   margin-left: -7vw;
 }
+#MobileLogo
+{
+  width: 150%;
+  left: -25%;
+  position: relative;
+  display: none;
+}

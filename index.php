@@ -15,6 +15,7 @@
       <?php
       include('menu_MOBILE.php');
       ?>
+      <img src="Bilder/Logo_Mobile.png" id="MobileLogo">
       <div style="" id="ANIMATION" onclick="START()">
         <div style="width:0px;height:70px;border-bottom: 2px white solid;transition:1s;margin-left:auto;margin-right:auto;position:relative;left:-1px;z-index:2;background-color:#232a34;" id="a"></div>
         <div style="height:0px;width:2px;background-color:white;transition:1s;transition-delay:3s;float:left" id="b"></div>
@@ -29,7 +30,7 @@
       </div>
 
 
-      <h1 style="margin-top:50px;margin-bottom:50px;color: white" id="FirstContent"><i>Deine Website rund um den Eignungstest</i></h1>
+      <h1 style="margin-bottom:50px;color: white" id="FirstContent"><i>Deine Website rund um den Eignungstest</i></h1>
       <p style="">Wir bereiten dich auf deinen bevorstehenden Eignungstest vor. Egal an welcher Hochschule wir unterstützen dich mit Trainingsplänen, Informationen rund um Vorraussetungen und Anforderungen und umfassende Berichte zu den verschiedenen Sportarten.</p>
       <div style="width:100%;height:1px;background-color:#3d567c"> </div>
       <h1 style="margin-top:100px;margin-bottom:20px;color: white"><i> Trainingspläne</i></h1>
@@ -85,6 +86,7 @@
     <script>
     var a = 0;
     var b = 0;
+    Mobile_menu_end();
     function START(){
       document.getElementById("TEST2").style.opacity= 1;
       document.getElementById("a").style.width= "900px";

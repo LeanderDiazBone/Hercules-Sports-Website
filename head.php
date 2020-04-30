@@ -1,8 +1,8 @@
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <link href="Stylesheets/style.css" rel=stylesheet type="text/css">
-<link href="Stylesheets/style_resize.css" rel=stylesheet type="text/css">
 <link href="Stylesheets/style_resize2.css" rel=stylesheet type="text/css">
+<link href="Stylesheets/style_resize.css" rel=stylesheet type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Prosto+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">

@@ -1,6 +1,6 @@
 function RESIZE(){
 			document.getElementById("background").style.height = window.innerHeight + "px";
-			document.getElementById("social-left").style.width = (window.innerWidth - 540) / 2 + "px";
+			document.getElementById("social-left").style.width = (window.innerWidth - 560) / 2 + "px";
 			document.getElementById("Searchbar").style.left = window.innerWidth - 370 + "px";
 			if(window.innerWidth>600){document.getElementById("ANIMATION").style.height = window.innerHeight + "px";}else{document.getElementById("ANIMATION").style.height = "200px"}
 }
