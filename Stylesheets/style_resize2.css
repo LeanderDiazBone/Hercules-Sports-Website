@@ -67,4 +67,8 @@ font-weight: normal;
 {
   margin-top: 50px;
 }
+#Scrollinfo
+{
+  display: none;
+}
 }
