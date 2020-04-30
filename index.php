@@ -6,7 +6,7 @@
       ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     </head>
-    <body style="width:100%;height:auto;margin:0;background-color:#3d567c" onscroll="IndexContentFadeIn()" onload="LOAD_ALL();START();RESIZE();LOAD()" onresize="RESIZE()">
+    <body style="width:100%;height:auto;margin:0;background-color:#3d567c; overflow-x: hidden" onscroll="IndexContentFadeIn()" onload="LOAD_ALL();START();RESIZE();LOAD()" onresize="RESIZE()">
       <div style="background-image: radial-gradient(#232a34 40%,#3d567c 150%);" id="background">
       </div>
       <?php

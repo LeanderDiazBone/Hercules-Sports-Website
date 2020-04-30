@@ -309,6 +309,15 @@
   {
     margin-top: 90vw;
   }
+  #AdvancedTrainingsplan
+  {
+    margin-top: 10vw;
+    padding-top: 100px;
+  }
+  #Sportarten_head
+  {
+    margin-top: 70px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .UnterlinksSportarten3

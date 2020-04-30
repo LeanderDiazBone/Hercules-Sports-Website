@@ -588,6 +588,8 @@ footer
 	background-size: 100%;
 	box-shadow: inset 0px 5px 10px black;
 	top: 0px;
+  z-index: 3;
+  position: relative;
 }
 .FooterP
 {
@@ -1775,4 +1777,8 @@ padding-left: 5vw;
   left: -25%;
   position: relative;
   display: none;
+}
+#AdvancedTrainingsplan
+{
+  padding-top: 20px;
 }
