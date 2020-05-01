@@ -14,7 +14,7 @@
 		<h1 id="Background_H1" style="left:-100px;font-size: 100px">Tischtennis</h1>
 		<div id="Background1_div2" style="width: 100%"></div>
 		<div style="width:100%;text-align:center;height:100px;margin-bottom: 200px">
-			<div style="margin-left:0%;width:20%" class="UnterlinksSportarten3" onclick="window.location.href = 'Regeln.php'">
+			<div style="margin-left:0%;width:20%" class="UnterlinksSportarten3" onclick="window.location.href = 'Technik.php'">
 				<h3 style="" class="UnterlinksSportarten_h">Technik</h3>
 				<div  class="UnterlinksSportarten_li">
 					<li><a>Grundstellung</a></li>

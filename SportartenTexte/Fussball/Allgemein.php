@@ -26,7 +26,7 @@
 					<h3 style="" class="UnterlinksSportarten_h">Training</h3>
 					<div  class="UnterlinksSportarten_li">
 						<li><a href="Taktik.php">TAKTIK</a></li>
-						<li><a>TECHNIK</a></li>
+						<li><a href="Technik">TECHNIK</a></li>
 						<li><a href="Tricks.php">TRICKS</a></li>
 						<li><a href="Übungen.php">ÜBUNGEN</a></li>
 					</div>
