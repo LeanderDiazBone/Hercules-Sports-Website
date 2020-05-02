@@ -17,9 +17,10 @@
 		<div id="Pfad"><span>Du befindest dich hier: </span><br> <a href="Allgemein.php">Leichtatlehthik</a> - Technik</div>
 		<div id="TEXT">
       <h3>Grundtechniken im Leichtatlethik:</h3>
-      <h4>Pass</h4>
-      <h4>Schuss</h4>
-      <h4>Annahme</h4>
+      <h4>Aufwärmen</h4>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/80056_vv2es" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <h4>Sprint</h4>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/H5RuehGltuo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 				<?php
 					include("../footerSportarten.php")
