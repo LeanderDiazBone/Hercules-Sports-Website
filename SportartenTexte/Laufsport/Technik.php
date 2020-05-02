@@ -22,6 +22,10 @@
 							<div id="Pfad"><span>Du befindest dich hier: </span><br> <a href="Allgemein.php">Laufsport</a> - Technik</div>
 		<div id="TEXT">
 		<h1>Technik</h1>
+		<h3>Laufspezifische Mobilisation und Dehnen:</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/c6LW8PAPnaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<h3>Lauftechnik</h3>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/PnAH4NQWIEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<h3 id="LF_H5">Vorfuß-, Mittelfuß- und Fersenlaufstil</h3>
 		<p><span class="firstletter">D</span>er <b>Vorfußlaufstil</b> wird häufig als ,,<b>schnellster</b>‘‘ Laufstil angepriesen. Jedoch ist dies nicht immer die beste Technik und nur dann passend, wenn man wirklich schnell laufen will, da der Vorfußlaufstil sehr dynamisch und abdruckkräftig ist. Wie zum Beispiel in <a class="TextLinkBold"href="Wettkämpfe.php">Wettkämpfen.</a> </p>
 		<p>Besonders wichtig ist, dass man sich nach einem Lauf mit dem Vorfußlaufstil ordentlich dehnt, denn sonst können Verletzungen an Wade, Knöchel und Achillessehne entstehen.</p>

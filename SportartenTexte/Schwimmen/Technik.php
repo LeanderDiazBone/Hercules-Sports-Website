@@ -18,9 +18,12 @@
 		<div id="Pfad"><span>Du befindest dich hier: </span><br> <a href="Allgemein.php">Schwimmen</a> - Technik</div>
 		<div id="TEXT">
       <h3>Grundtechniken im Schwimmen:</h3>
-      <h4>Pass</h4>
-      <h4>Schuss</h4>
-      <h4>Annahme</h4>
+      <h4>Kraul</h4>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/gLRiOss98FY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h4>Brust</h4>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/K9MY0hhpfzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h4>Kopfsprung</h4>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/Qh96r6dWz7Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 				<?php
 					include("../footerSportarten.php")
