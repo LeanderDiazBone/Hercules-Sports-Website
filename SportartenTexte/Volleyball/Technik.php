@@ -27,13 +27,16 @@
       <div class="Absatz65">
         <p>Pritschen ist auch als <b>oberes Zuspiel</b> bekannt und wird meistens dazu benutzt den Ball zum Angriff dem Mitspieler hochzulegen. Wichtig beim Pritschen ist, dass Du mit Deinen Beinen schulterbreit auf dem Boden stehst und die Hände über deiner Stirn hältst, mit denen Du ein <b>Dreieck</b> bildest.</p>
       </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QowZUkUlbAI?start=36" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <img style="margin-bottom:30px;"class="Bild30"src="Bilder/Pritschen.jpg"/>
       <p>Wenn es dann zu Ballberührung kommt, drückst Du Dich nur aus den Beinen heraus in Richtung Ball, deine Arme bleiben in der Position. Der Ball wird jetzt nur mit den Fingerspitzen gespielt, denn sonst gilt die Berührung als gefangen. Zu Beginn sollte der Ball nur nach oben gespielt werden, wenn Du schon etwas mehr Übung hast, kann versucht werden den Ball nach hinten oder seitlich zu spielen.</p>
       <h3>2) Baggern:</h3>
       <p>Baggern ist auch bekannt als <b>unteres Zuspiel</b> und wir bei Bällen verwendet, die von den Schultern abwärts auf den Körper treffen. Man benutzt diese Technik meistens um <b>Aufschläge anzunehmen</b>, aber auch um einen <b>Angriff vorzubereiten</b>. Man benötigt beim Baggern <b>beide Arme</b>, die man zu einem sogenannten ,, <b>Brett</b> ‘‘ zusammen hält. Dann schiebt man die Schulten nach vorne und legt die Hände ineinander, sodass die Unterarme und Daumen <b>parallel zueinander</b> sind. Auch beim Baggern ist es am besten mit beiden Beinen am Boden du sein, aber manchmal kann es passieren, dass ein Ball nicht so gespielt wird wie gedacht. Dann muss man auch mal mit beiden Armen voraus hechten, um den Ball noch zu erreichen. Sehr wichtig ist, dass die Bewegung nicht mit den Armen gemacht wird, sondern aus den Beinen heraus.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QowZUkUlbAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <img class="Bild75zentrum"src="Bilder/Baggern.jpg"/>
       <h3>3) Aufschlag:</h3>
       <p>Der Aufschlag ist der Beginn eines Ballwechsels von dem Team, welches den vorigen Ballwechsel für sich entscheiden konnte. Um den Aufschlag durchzuführen, müssen Sie mit der <b>flachen Hand</b> gegen den Ball schlagen, um ihn in das gegnerische Feld zu befördern. Dabei gibt es drei verschiedene Durchführungsweisen, welche auch in verschiedene Schwierigkeitsstufen eingeteilt werden können. </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-3ZSJTj-yPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="Absatz65">
         <ol>
           <li>Die leichteste Variante ist der Aufschlag <b>von unten</b>. Dabei wird der Ball mit der einen Hand losgelassen und sogleich von der Schlaghand geschlagen.</li>
