@@ -19,6 +19,9 @@
 		<div id="Background1_div2" style="width: 100%;height: 100vh"></div>
 		<div id="Sportarten_TextContainer">
 			<div id="TEXT">
+				<h3>Technik</h3>
+				<p>Du willst deine Technik im Handball verbessern ? ... <a href="Technik.php">dann klicke hier</a></p>
+				<h3>Allgemein</h3>
 			<p>	Ziel des Spieles beim Handball ist, so viele wie mögliche Tore zu werfen, um somit am Ende mehr Punkte (Tore) wie die gegnerische Mannschaft zu haben.
 					Neben dem üblichen Hallenhandball gibt es auch noch Feld- und Beachhandball. Zum ersten Mal wurde bei Olympia 1936 Handball gespielt und ist seither eine feste Disziplin.
 					Außerdem gibt es noch die WM und EM-Spiele, in der die Nationalmannschaften gegeneinander spielen. In Deutschland spielen einzelne Vereine in verschiedenen Liegen zum Beispiel Bundesliga, Landesliga, Kreisliga usw. gegeneinander.
