@@ -1,5 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cinzel');
+#Sportarten_TextContainer
+{
+  background-image: radial-gradient(#232a34 40%,#3d567c 150%);
+  position: relative;
+}
 table
 {
 font-family: Quicksand;
@@ -43,6 +48,8 @@ table th
   padding-right: 50px;
   padding-left: 50px;
   max-width: 1200px;
+  position: relative;
+  z-index: 2;
 }
 .Tabelle_Weltrangliste tr:hover
 {
