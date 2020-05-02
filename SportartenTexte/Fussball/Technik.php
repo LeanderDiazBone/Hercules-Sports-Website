@@ -21,8 +21,11 @@
 		<div id="TEXT">
       <h3>Grundtechniken im Fussball:</h3>
       <h4>Pass</h4>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/nOVjFoqPIlM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <h4>Schuss</h4>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/vrC2c6T9VK0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <h4>Annahme</h4>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/E8kiWmlMN_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 				<?php
 					include("../footerSportarten.php")
