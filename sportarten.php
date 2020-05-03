@@ -39,7 +39,7 @@
         <a href="SportartenTexte/Triathlon/Allgemein.php"><div class="Sportart_Bilder_div"><h2 class="Sportart_Bilder_h2">TRIATHLON</h2><img src="Bilder/Sportart_10.jpg" style="" class="Sportart_Bilder"></div></a>
         <a href="SportartenTexte/Volleyball/Allgemein.php"><div class="Sportart_Bilder_div"><h2 class="Sportart_Bilder_h2">VOLLEYBALL</h2><img src="Bilder/Sportart_11.jpg" style="" class="Sportart_Bilder"></div></a>
         <a href="SportartenTexte/Basketball/Allgemein.php"><div class="Sportart_Bilder_div"><h2 class="Sportart_Bilder_h2">BASKETBALL</h2><img src="Bilder/Sportart_13.jpg" style="" class="Sportart_Bilder"></div></a>
-        <a href="SportartenTexte/Schwimmen/Allgemein.php"><div class="Sportart_Bilder_div"><h2 class="Sportart_Bilder_h2">SCHWIMMEN</h2><img src="Bilder/Sportart_14.jpg" style="" class="Sportart_Bilder"></div></a>
+        <a href="SportartenTexte/Schwimmen/Technik.php"><div class="Sportart_Bilder_div"><h2 class="Sportart_Bilder_h2">SCHWIMMEN</h2><img src="Bilder/Sportart_14.jpg" style="" class="Sportart_Bilder"></div></a>
         <a href="SportartenTexte/Turnen/Allgemein.php"><div class="Sportart_Bilder_div"><h2 class="Sportart_Bilder_h2">TURNEN</h2><img src="Bilder/Sportart_15.jpg" style="" class="Sportart_Bilder"></div></a>
       </div>
       <div style="width:100%;height:1px;background-color:#3d567c;margin-top:100px"> </div>
