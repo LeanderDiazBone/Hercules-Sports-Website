@@ -15,7 +15,7 @@
 		<div id="Background1_div2" style="width: 100%;height:100vh"></div>
 		<div id="Sportarten_TextContainer">
 			<div id="TEXT">
-				<a>Zur Technik im Leichtathletik</a>
+				<p style="padding-top: 50px;"><a style="text-decoration: underline; cursor: pointer; color: white" href="Technik.php" >Hier findest du mehr zur Technik</a></p>
 				<p>Die Leichtathletik hat die grundlegenden menschlichen Bewegungsabläufe des Laufens, Springens und Werfens innerhalb eines umfangreichen Regelwerks zusammengefasst und ist das Herzstück der Olympischen Spiele.</p>
 				<p>Die Leichtathletik ist eine Individualsportart. Für Leistungssportler steht die persönliche Leistung im Mittelpunkt. Im Wettkampf geht es um die beste Leistung, die über Sieg und Platzierung entscheidet.</p>
 				<p>Das Messen der Leistung und alle zu erfüllenden Randbedingungen für die Anerkennung einer Leistung sind in den Internationalen Wettkampfregeln (IWR) für alle Disziplinen der Leichtathletik genau definiert. Die erzielten Leistungen sind durch modernste Techniken exakt messbar und weltweit vergleichbar.</p>

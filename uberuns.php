@@ -28,7 +28,7 @@
       <p>Beginne besser zu werden. (Start doing better) Versuche jeden Tag besser zu werden, egal ob im Sport oder im Alltag, beginn einfach besser zu sein als gestern.</p>
       <h3>Wer wir sind</h3>
       <p>Hercules-Sports bietet viele Informationen, Tipps und vieles mehr zu verschiedensten Sportarten. Anfänger sowie Profis finden bei uns vielfältige Artikel zu Sportarten, Training und Ernährung, welche ihnen in ihrer Sportart weiterhelfen können. Zudem bietet Hercules-Sports eine viele Möglichkeiten für motivierte Menschen, die eine Sportart anfangen möchten, sich in jeweiligen Bereichen zu orientieren und zu informieren.</p>
-      <img src="Bilder/Löwenkopf.png" style="width: 100%; max-width: 700px">
+      <img src="Bilder/Logo_Backup.png" style="width: 100%; max-width: 1000px">
       <?php
       include('footer.php');
       ?>

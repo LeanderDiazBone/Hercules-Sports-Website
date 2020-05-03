@@ -14,10 +14,10 @@
       <?php
       include('menu_MOBILE.php');
       ?>
-      <div style="height:100%;overflow:hidden;margin-top:0px;position:fixed" id="Background1_div"><img src="Bilder/ernährung_p3.jpg" id="Background1" style="min-height:100vh;width: 100vw;min-width: 1500px;opacity:0.5;position:relative"></div>
+      <div style="height:100%;overflow:hidden;margin-top:0px;position:fixed" id="Background1_div"><img src="Bilder/test6.jpg" id="Background1" style="min-height:100vh;width: 100vw;min-width: 1500px;opacity:0.5;position:relative"></div>
       <div id="Background1_div2" style="width: 100%; height: 100vh"></div>
       <div style="width:100%;text-align:center">
-      <div style="width:100%;height: 100px;text-align:center;position:fixed;top:-225px;transition: 1s;z-index: 4" id="Sportarten_head"><img src="Bilder/Logo3.png" style="max-width: 1400px;width: 100%" onload="document.getElementById('Sportarten_head').style.top = '-25px'"></div>
+      <div style="width:100%;height: 100px;text-align:center;position:fixed;top:-225px;transition: 1s;z-index: 4" id="Sportarten_head"><img src="Bilder/InfoHead.png" style="max-width: 700px;width: 100%; margin-top: 50px; " onload="document.getElementById('Sportarten_head').style.top = '-25px'"></div>
       <div style="position:absolute;height:50px;width:100%;margin-left:auto;margin-right:auto;text-align:center">
         <p style="color:white;font-family:Syncopate;opacity: 1 ;transition: 0.5s;position:relative;top: -200px" id="Scrollinfo">UM WEITER ZU KOMMEN SCROLLEN</p>
       </div>
@@ -27,7 +27,7 @@
         <p>Allgemein gilt: Man darf von allen Übungen nur eine einzige nicht bestehen. Bei dem zweiten Defizit (=erreichen der Leistungsanforderungen fehlgeschlagen) fällt man durch.</p>
         <h3>Leistungsanforderungen Sporthochschule Köln:</h3>
         <h4>Leichtathletik: </h4>
-       
+
         <table style="margin-left: auto; margin-right:auto;width:50%;text-align: center;color:white;font-size:20pt;">
         <tr><th>Disziplinen</th><th>Frauen</th><th>Männer</th></tr>
         <tr><td>100m Sprint</td><td>15,5s</td><td>13,4s</td></tr>
@@ -51,26 +51,26 @@
         </table>
         <table style="margin-left: auto; margin-right:auto;width:70%;text-align:center;color:white;font-size:12pt;">
         <tr><th>Disziplin</th><th>Ausführungsempfehlung / Leistungsminimum</th></tr>
-        <tr><td>Kopfsprung  (2)  mit Anlauf vom 1-m-Brett</td><td>• mind. 3 Schritte Anlauf (Empfehlung: ruhiges Angehen!)  • beidbeiniger Absprung  • Kopfsprung mit einer Flugkurve in der Ausführung gestreckt, gehockt oder gehechtet  • Eintauchwinkel mit gestreckten parallel geschlossenen Beinen im Winkel zwischen 45° und 90° zur Wasseroberfläche  
- 
+        <tr><td>Kopfsprung  (2)  mit Anlauf vom 1-m-Brett</td><td>• mind. 3 Schritte Anlauf (Empfehlung: ruhiges Angehen!)  • beidbeiniger Absprung  • Kopfsprung mit einer Flugkurve in der Ausführung gestreckt, gehockt oder gehechtet  • Eintauchwinkel mit gestreckten parallel geschlossenen Beinen im Winkel zwischen 45° und 90° zur Wasseroberfläche
+
  Nicht akzeptiert werden z. B.  - Sprünge aus dem Stand  - weite Sprünge mit flachem Eintauchen (ähnlich einem Startsprung)  - Überschlagen des Körpers  - gegrätschte oder gescherte Beinhaltungen oder gebeugte Hüft- bzw. Kniegelenke beim Eintauchen
  </td></tr>
-        <tr><td>20–m-Streckentauchen  (2)  </td><td>• Startsprung vom Startblock oder Abstoßen von der Beckenwand  • Tauchen deutlich unterhalb der Wasseroberfläche  • am Ende der Tauchstrecke einen Tauchring in ca. 2 m Tiefe dicht übertauchen  
- 
- Empfehlung:  - ruhig ablaufende Arm- und Beinbewegungen  - vor dem Tauchgang höchstens 2- bis 3-mal ruhige Normalatmung - Hyperventilation ist nicht gestattet  
-  
+        <tr><td>20–m-Streckentauchen  (2)  </td><td>• Startsprung vom Startblock oder Abstoßen von der Beckenwand  • Tauchen deutlich unterhalb der Wasseroberfläche  • am Ende der Tauchstrecke einen Tauchring in ca. 2 m Tiefe dicht übertauchen
+
+ Empfehlung:  - ruhig ablaufende Arm- und Beinbewegungen  - vor dem Tauchgang höchstens 2- bis 3-mal ruhige Normalatmung - Hyperventilation ist nicht gestattet
+
  Nicht akzeptiert wird  - Schwimmen ohne Atmung dicht an/unterhalb der Wasseroberfläche
  </td></tr>
-        <tr><td>Bewegungsdemonstration (2) 25-m-Kraulschwimmen </td><td>Wechselzug der Arme und Wechselschlag der Beine bei flacher und gestreckter Position des Körpers an der Wasseroberfläche • Schwimmen mit Gesicht im Wasser, regelmäßige, rhythmische Atmung, Einatmung im 2er- oder 3er Rhythmus seitlich zum passenden Zeitpunkt der Armbewegung 
- 
- Nicht akzeptiert werden z. B.: - Stoß-/Tretbewegungen der Beine (ähnliche der Brustschwimm-Beinbewegung) - keine oder unregelmäßige Atmung  Frontalatmung (d.h. Kopf nach vorn zur Einatmung angehoben) - längere Teilstrecken ohne Atmung 
+        <tr><td>Bewegungsdemonstration (2) 25-m-Kraulschwimmen </td><td>Wechselzug der Arme und Wechselschlag der Beine bei flacher und gestreckter Position des Körpers an der Wasseroberfläche • Schwimmen mit Gesicht im Wasser, regelmäßige, rhythmische Atmung, Einatmung im 2er- oder 3er Rhythmus seitlich zum passenden Zeitpunkt der Armbewegung
+
+ Nicht akzeptiert werden z. B.: - Stoß-/Tretbewegungen der Beine (ähnliche der Brustschwimm-Beinbewegung) - keine oder unregelmäßige Atmung  Frontalatmung (d.h. Kopf nach vorn zur Einatmung angehoben) - längere Teilstrecken ohne Atmung
  </td></tr>
-        <tr><td>25-m-Brustschwimmen</td><td>• Wechselzug der Arme und Wechselschlag der Beine bei flacher und gestreckter Position des Körpers an der Wasseroberfläche • Schwimmen mit Gesicht im Wasser, regelmäßige, rhythmische Atmung, Einatmung im 2er- oder 3er Rhythmus seitlich zum passenden Zeitpunkt der Armbewegung 
- 
- Nicht akzeptiert werden z. B.: - Stoß-/Tretbewegungen der Beine (ähnliche der Brustschwimm-Beinbewegung) - keine oder unregelmäßige Atmung  Frontalatmung (d.h. Kopf nach vorn zur Einatmung angehoben) - längere Teilstrecken ohne Atmung 
-  
- • Spiegelsymmetrischer Verlauf von Arm- und Beinbewegung • Dorsalflexion (Rückwärtsbeugung) im Fußgelenk während der Antriebsphase der Beinbewegung gemäß internationalem Regelwerk • flache, gestreckte Körperlage nach jedem Zyklus  dem Armzug zugeordnete rhythmische Atmung frontal 
-  
+        <tr><td>25-m-Brustschwimmen</td><td>• Wechselzug der Arme und Wechselschlag der Beine bei flacher und gestreckter Position des Körpers an der Wasseroberfläche • Schwimmen mit Gesicht im Wasser, regelmäßige, rhythmische Atmung, Einatmung im 2er- oder 3er Rhythmus seitlich zum passenden Zeitpunkt der Armbewegung
+
+ Nicht akzeptiert werden z. B.: - Stoß-/Tretbewegungen der Beine (ähnliche der Brustschwimm-Beinbewegung) - keine oder unregelmäßige Atmung  Frontalatmung (d.h. Kopf nach vorn zur Einatmung angehoben) - längere Teilstrecken ohne Atmung
+
+ • Spiegelsymmetrischer Verlauf von Arm- und Beinbewegung • Dorsalflexion (Rückwärtsbeugung) im Fußgelenk während der Antriebsphase der Beinbewegung gemäß internationalem Regelwerk • flache, gestreckte Körperlage nach jedem Zyklus  dem Armzug zugeordnete rhythmische Atmung frontal
+
  Nicht akzeptiert werden z. B.: - Asymmetrien der Beine (umgangssprachlich „Schere“) - Plantarflexion im Fußgelenk während der Schwunggrätsche (sogen. „Spitzfuß“ oder „Ballettfuß“) - Schulter- oder Hüftquerachse nicht parallel zur Wasseroberfläche - deutliche Disharmonie in der Koordination von Arm- und Beinbewegung
  </td></tr>
         </table>
@@ -78,7 +78,7 @@
 <table style="margin-left: auto; margin-right:auto;width:70%;text-align:center;color:white;font-size:15pt;">
 <tr><th>Disziplin</th><th>Frauen</th><th>Männer</th></tr>
 <tr><td>2000m/3000m Ausdauerlauf</td><td>2000m: 10:00 min</td><td></td><td>3000m: 13:00 min</td></tr>
-</table>  
+</table>
 <?php
 include('footer.php');
 ?>
