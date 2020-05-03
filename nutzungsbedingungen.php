@@ -5,7 +5,7 @@
         include("head.php");
       ?>
     </head>
-    <body style="width:100%;height:auto;margin:0;background-color:#3d567c" onscroll="scroll();LOAD_SP();" onload="LOAD_ALL();LOAD_SP();RESIZE();" onresize="RESIZE()">
+    <body style="width:100%;height:auto;margin:0;background-color:#3d567c" onscroll="LOAD_SP();" onload="LOAD_ALL();LOAD_SP();RESIZE();" onresize="RESIZE()">
       <div style="background-image: radial-gradient(#232a34 40%,#3d567c 150%);width:100%;position:fixed;z-index:-5;top:0;height: 100%" id="background">
       </div>
       <?php

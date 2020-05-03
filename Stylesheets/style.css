@@ -1783,3 +1783,27 @@ padding-left: 5vw;
 {
   padding-top: 20px;
 }
+#DatenschutzText
+{
+  color: white;
+  width: 70vw;
+  margin-left: 15vw;
+  text-align: left;
+}
+#DatenschutzText h2
+{
+  font-family: Quicksand;
+  font-size: 30px;
+  color: #ddd;
+}
+#DatenschutzText p
+{
+  text-align: left;
+  margin-left: 40px;
+}
+#DatenschutzText li
+{
+  font-family: Quicksand;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

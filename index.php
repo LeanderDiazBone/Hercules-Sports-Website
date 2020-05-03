@@ -37,7 +37,7 @@
       <!--<div id="slideTrainingsplanInfo"> -->
         <div id="TrainingspläneInfo">
           <div id="TrainingspläneInfoLeft">
-            <div class="erfahre_Bild_Container"><a target="_blank" href="Trainingspläne/Beispiel PDF.pdf"><img src="Bilder/BasicTraining.png" class="erfahre_Bild FadeIn" id="BasicTraining"></a></div>
+            <div class="erfahre_Bild_Container"><a target="_blank" href="PDF/KostenloserTrainingsplan.pdf"><img src="Bilder/BasicTraining.png" class="erfahre_Bild FadeIn" id="BasicTraining"></a></div>
           <li class="TrainingsplanIsSet">Übungen</li>
             <li class="TrainingsplanIsSet">Techniken</li>
             <li class="TrainingsplanIsSet">Trainingseinheiten</li>
@@ -46,7 +46,7 @@
             <li class="TrainingsplanIsNotSet">weiterführende Infos und Tipps</li>
             <li class="TrainingsplanIsNotSet">personelle Unterstützung</li>
             <p>Hier findest du einen Trainingsplan, welcher die grundlegenden Übungen und Anforderungen behandelt. Dieser Trainingsplan ist nicht auf dich angepasst, hilft jedoch trotzdem um ein grundlegende Fähigkeiten aufzubauen.</p>
-            <button type="button" id="DownloadButton" onclick="window.open('Trainingspläne/Beispiel PDF.pdf')">Download now !</button>
+            <button type="button" id="DownloadButton" onclick="window.open('PDF/KostenloserTrainingsplan.pdf')">Download now !</button>
             <img src="Bilder/kostenlos.png" id="kostenlosSign" >
           </div>
           <div id="TrainingspläneInfoRight">
