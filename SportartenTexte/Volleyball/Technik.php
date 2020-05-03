@@ -23,14 +23,14 @@
 		<div id="TEXT">
 			<h1>Technik</h1>
 			<p><span class="firstletter">I</span>n diesem Artikel geht es um die Technik der verschiedenen Schläge im Volleyball.</p>
-      <h3>1) Pritschen:</h3>
+      <h3 id="pritschen">1) Pritschen:</h3>
       <div class="Absatz65">
         <p>Pritschen ist auch als <b>oberes Zuspiel</b> bekannt und wird meistens dazu benutzt den Ball zum Angriff dem Mitspieler hochzulegen. Wichtig beim Pritschen ist, dass Du mit Deinen Beinen schulterbreit auf dem Boden stehst und die Hände über deiner Stirn hältst, mit denen Du ein <b>Dreieck</b> bildest.</p>
       </div>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/QowZUkUlbAI?start=36" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <img style="margin-bottom:30px;"class="Bild30"src="Bilder/Pritschen.jpg"/>
       <p>Wenn es dann zu Ballberührung kommt, drückst Du Dich nur aus den Beinen heraus in Richtung Ball, deine Arme bleiben in der Position. Der Ball wird jetzt nur mit den Fingerspitzen gespielt, denn sonst gilt die Berührung als gefangen. Zu Beginn sollte der Ball nur nach oben gespielt werden, wenn Du schon etwas mehr Übung hast, kann versucht werden den Ball nach hinten oder seitlich zu spielen.</p>
-      <h3>2) Baggern:</h3>
+      <h3 id="baggern">2) Baggern:</h3>
       <p>Baggern ist auch bekannt als <b>unteres Zuspiel</b> und wir bei Bällen verwendet, die von den Schultern abwärts auf den Körper treffen. Man benutzt diese Technik meistens um <b>Aufschläge anzunehmen</b>, aber auch um einen <b>Angriff vorzubereiten</b>. Man benötigt beim Baggern <b>beide Arme</b>, die man zu einem sogenannten ,, <b>Brett</b> ‘‘ zusammen hält. Dann schiebt man die Schulten nach vorne und legt die Hände ineinander, sodass die Unterarme und Daumen <b>parallel zueinander</b> sind. Auch beim Baggern ist es am besten mit beiden Beinen am Boden du sein, aber manchmal kann es passieren, dass ein Ball nicht so gespielt wird wie gedacht. Dann muss man auch mal mit beiden Armen voraus hechten, um den Ball noch zu erreichen. Sehr wichtig ist, dass die Bewegung nicht mit den Armen gemacht wird, sondern aus den Beinen heraus.</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/QowZUkUlbAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <img class="Bild75zentrum"src="Bilder/Baggern.jpg"/>
