@@ -5,7 +5,7 @@
         include("head.php");
       ?>
     </head>
-    <body style="width:100%;height:auto;margin:0;background-color:#3d567c; overflow-x: hidden" onscroll="IndexContentFadeIn()" onload="LOAD_ALL();START();RESIZE();LOAD()" onresize="RESIZE()">
+    <body style="width:100%;height:auto;margin:0;background-color:#3d567c; overflow-x: hidden" onload="LOAD_ALL();START();RESIZE();LOAD()" onresize="RESIZE()">
       <div style="background-image: radial-gradient(#232a34 40%,#3d567c 150%);" id="background">
       </div>
       <?php
@@ -38,7 +38,7 @@
       <!--<div id="slideTrainingsplanInfo"> -->
         <div id="TrainingspläneInfo">
           <div id="TrainingspläneInfoLeft">
-            <div class="erfahre_Bild_Container"><a target="_blank" href="PDF/KostenloserTrainingsplan.pdf"><img src="Bilder/BasicTraining.png" class="erfahre_Bild FadeIn" id="BasicTraining"></a></div>
+            <div class="erfahre_Bild_Container"><a target="_blank" href="PDF/KostenloserTrainingsplan.pdf"><img src="Bilder/BasicTraining.jpg" class="erfahre_Bild FadeIn" id="BasicTraining"></a></div>
           <li class="TrainingsplanIsSet">Übungen</li>
             <li class="TrainingsplanIsSet">Techniken</li>
             <li class="TrainingsplanIsSet">Trainingseinheiten</li>
@@ -51,7 +51,7 @@
             <img src="Bilder/kostenlos.png" id="kostenlosSign" >
           </div>
           <div id="TrainingspläneInfoRight">
-            <div class="erfahre_Bild_Container"><a href="training.php?tr=advanced"><img src="Bilder/AdvancedTraining.png" class="erfahre_Bild FadeIn" id="AdvancedTraining"></a></div>
+            <div class="erfahre_Bild_Container"><a href="training.php?tr=advanced"><img src="Bilder/AdvancedTraining.jpg" class="erfahre_Bild FadeIn" id="AdvancedTraining"></a></div>
           <li class="TrainingsplanIsSet">Übungen</li>
             <li class="TrainingsplanIsSet">Techniken</li>
             <li class="TrainingsplanIsSet">Trainingseinheiten</li>
@@ -69,8 +69,8 @@
       <h1 style="margin-top:150px;margin-bottom:20px;color: white"><i> Infos </i></h1>
       <p class="erfahre_p" style=""> A n f o r d e r u n g e n <span style="margin:20px">|</span> A b l a u f <span style="margin:20px">|</span> T e r m i n e <span style="margin:20px">|</span> T e c h n i k<span style="margin:20px">|</span> R e g e l n</p>
       <div id="Infos">
-        <a href="info.php"><img src="Bilder/Info.png" style="" class="erfahre_Bild FadeIn"></a>
-        <a href="sportarten.php"><img src="Bilder/Sportarten.png" style="" class="erfahre_Bild FadeIn"></a>
+        <a href="info.php"><img src="Bilder/Info.jpg" style="" class="erfahre_Bild FadeIn"></a>
+        <a href="sportarten.php"><img src="Bilder/Sportarten.jpg" style="" class="erfahre_Bild FadeIn"></a>
       </div>
       <div style="width:100%;height:1px;background-color:#3d567c"> </div>
       <h1 style="margin-top:150px;margin-bottom:20px;color: white"><i> Social Media </i></h1>
