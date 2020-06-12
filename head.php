@@ -20,3 +20,5 @@
   gtag('config', 'UA-121402690-1');
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Hercules Sports</title>
+<meta name="description" content="Die Website rund um den Sporteignungstest. Trainingspläne, Berichte, Infos und vieles mehr ...">
